@@ -4,7 +4,7 @@
 #parentFooterContainer {
   background-color: #5e9afc;
   padding-bottom: 60px;
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 #footerContainer {
   text-align: center;

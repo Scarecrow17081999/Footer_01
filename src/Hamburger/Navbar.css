@@ -1,0 +1,11 @@
+#navBarParentContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 5px;
+ 
+}
+#menuIcon:active{
+color: rgb(150, 150, 150);
+}

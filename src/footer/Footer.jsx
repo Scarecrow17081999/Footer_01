@@ -6,12 +6,16 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import BasicModal from "./Modal";
-
+import Sidebar from "../Hamburger/Hamburger";
 import Divider from "@mui/material/Divider";
 import ChatModal from "./ChatModal";
+import '../Hamburger/Navbar.css'
 export default function Footer() {
   return (
     <div id="parentFooterContainer">
+      <div id="navBarParentContainer">
+        <Sidebar />
+      </div>
       <div id="footerContainer">
         <h1>Contact Us</h1>
         <p>
@@ -44,7 +48,10 @@ export default function Footer() {
         </div>
       </div>
       <ChatModal />
-      <Divider light={true} sx={{ borderBottom: "2px solid white",width:'97%',margin:'auto' }} />
+      <Divider
+        light={true}
+        sx={{ borderBottom: "2px solid white", width: "97%", margin: "auto" }}
+      />
     </div>
   );
 }
