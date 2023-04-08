@@ -1,0 +1,21 @@
+#chatPopUpParentContainer{
+    padding-bottom: 18px;
+}
+
+#message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#charIcon{
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+   font-size: 2rem;
+   cursor: pointer;
+   
+}
+#chatModal{
+    border: 1px solid black;
+    width: 300px;
+}

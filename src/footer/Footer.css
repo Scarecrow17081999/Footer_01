@@ -1,0 +1,81 @@
+* {
+  transition: all 0.5s;
+}
+#parentFooterContainer {
+  background-color: #5e9afc;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+#footerContainer {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  color: white;
+
+}
+#footerContainer >h1{
+  margin: 15px auto;
+  font-size:xxx-large;
+  font-weight: 700;
+
+  color: white;
+}
+#footerContainer>p{
+  margin: 15px auto; 
+  color: white;
+}
+#footerContainer>div{
+  margin: 15px auto;
+  color: white;
+}
+#contactIcons > div {
+  /* border: 1px solid rgb(0, 0, 0); */
+  padding: 20px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  border-radius: 50%;
+  color: white;
+}
+#contactIcons > div:hover {
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+#contactIcons > div a {
+
+  color: rgb(255, 255, 255);
+}
+#contactIcons > div a:hover {
+  color: rgb(0, 0, 0);
+}
+#contactIcons {
+  display: flex;
+  width: 40%;
+  height: 70px;
+  margin: auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#button {
+  border-radius: 30px;
+  border: 1.5px solid white;
+  color: white;
+}
+@media screen and (max-width: 1100px) {
+  #contactIcons {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 786px) {
+  #contactIcons {
+    width: 100%;
+  }
+  #footerContainer {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: white;
+  }
+}
