@@ -9,3 +9,6 @@
 #menuIcon:active{
 color: rgb(150, 150, 150);
 }
+    #menuIcon{
+color: rgb(0, 0, 0);
+}

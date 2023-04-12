@@ -10,11 +10,13 @@ import Sidebar from "../Hamburger/Hamburger";
 import Divider from "@mui/material/Divider";
 import ChatModal from "./ChatModal";
 import '../Hamburger/Navbar.css'
+import Navbar from "../Hamburger/Navbar";
 export default function Footer() {
   return (
     <div id="parentFooterContainer">
       <div id="navBarParentContainer">
-        <Sidebar />
+        {/* <Sidebar /> */}
+        <Navbar />
       </div>
       <div id="footerContainer">
         <h1>Contact Us</h1>

@@ -1,12 +1,13 @@
 import "./App.css";
 
-import Navbar from "./Hamburger/Navbar";
-import Footer from "./footer/Footer";
+import NavBottom from './NavBottom/NavBottom';
+import ImageCarousel from "./ImageCarousel/ImageCarousel";
 function App() {
   return (
     <>
-    <Navbar />
-      <Footer />
+   
+      <NavBottom />
+      <ImageCarousel />
     </>
   );
 }
